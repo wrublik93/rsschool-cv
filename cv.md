@@ -44,31 +44,26 @@ Ready to work 24/7.
   - *Bootstrap* 
   - *JQuery*  
 ## Code Examples  
+Method for ability loading book:
 
-    import Vue from 'vue' 
-    import Vuex from 'vuex' 
-    import userModule from './store/user' 
-    import generalModule from './store/general' 
-    import readModule from './store/read' 
-    import userDataModule from './store/userData' 
-    import wordsBlockModule from './store/wordsBlock' 
-    import snackbarModule from './store/snackbar' 
-    import learnWordModule from './store/learnWord' 
-    import songsModule from './store/songs' 
-     Vue.use(Vuex); 
-     export default new Vuex.Store({ 
-     modules: { 
-       userModule, 
-       generalModule, 
-       readModule, 
-       userDataModule, 
-       wordsBlockModule, 
-       snackbarModule, 
-       learnWordModule, 
-       songsModule 
-     } 
-     }) 
-  
+    canLoadBook(bookId){
+      let book = this.getUserData(bookId);
+      return this.isUserAuthenticated && !this.getProcessing && !book;
+    }
+
+Method for check adding book:
+
+    getUserDataBook(bookId){
+      return this.userData.books[bookId];
+    }
+
+Method for getting the book add date:
+
+    getBookAddedDate(bookId){
+      let book = this.getUserDataBook(bookId);
+      return book.addedDate;
+    }
+
 ## Experience  
 - Telecommunications Engineer: 
   - RUE "Beltelecom" (Minsk, Belarus); 
