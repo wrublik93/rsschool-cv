@@ -72,4 +72,25 @@ Method for getting the book add date:
 - Software Engineer (Front-end Developer): 
   - RUE "Beltelecom" (Minsk, Belarus); 
   -  02/2019 - Ongoing.  
- 
+  
+## Education  
+- BE, Telecommunication Engineering: 
+  - BSUIR (Minsk, Belarus); 
+  - 09/2010 - 06/2015; 
+  - Telecommunications Engineer. 
+- BE, Information Systems Software: 
+  - BSUIR (Minsk, Belarus); 
+  - 04/2018 - 10/2019;
+  - Software Engineer. 
+- Website Development with HTML, CSS and JavaScript: 
+  - Educational Centre "IT-Academy" (Minsk, Belarus); 
+  - 12/2018 - 03/2019. 
+- Web-application Development with JavaScript: 
+  - Educational Centre "IT-Academy" (Minsk, Belarus); 
+  - 03/2019 - 06/2019. 
+- Cisco CCNA Full Course): 
+  - BSAT (Minsk, Belarus); 
+  - 01/2016 - 12/2018.  
+  
+
+
