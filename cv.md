@@ -71,8 +71,11 @@ export default new Vuex.Store({
     }
 })
 ```  
-
-
-
-
-
+## Experience  
+- Telecommunications Engineer: 
+  - RUE "Beltelecom" (Minsk, Belarus); 
+  - 06/2015 - 02/2019. 
+- Software Engineer (Front-end Developer): 
+  - RUE "Beltelecom" (Minsk, Belarus); 
+  -  02/2019 - Ongoing.  
+ 
