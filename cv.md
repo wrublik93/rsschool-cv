@@ -26,7 +26,7 @@ Ready to work 24/7.
 * JavaScript  
 * HTML / HTML5  
 * CSS / CSS3  
-* C / C# / C++  
+* C / C# / C++
 ### *Tools & Technologies*  
 * Git  
 * GitHub / GitLab  
@@ -36,13 +36,14 @@ Ready to work 24/7.
 * WebStorm / PHPStorm  
 * Linux  
 * NodeJS / NPM  
-* VUE-cli  
+* VUE-cli
 ### *Frameworks & Libraries*  
 * Vue.js  
 * Vuetify  
 * LoDash  
 * Bootstrap  
-* JQuery  
+* JQuery
+
 
 
 
