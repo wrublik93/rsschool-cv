@@ -22,27 +22,27 @@ studying Intermediate English (Language School "Streamline").
 I want to improve, learn new technologies and bring benefits.
 Ready to work 24/7.  
 ## Skills  
-### *Languages*  
-* JavaScript  
-* HTML / HTML5  
-* CSS / CSS3  
-* C / C# / C++
-### *Tools & Technologies*  
-* Git  
-* GitHub / GitLab  
-* JSON  
-* Google Firebase  
-* Chrome DevTools  
-* WebStorm / PHPStorm  
-* Linux  
-* NodeJS / NPM  
-* VUE-cli
-### *Frameworks & Libraries*  
-* Vue.js  
-* Vuetify  
-* LoDash  
-* Bootstrap  
-* JQuery
+- **Languages:**   
+  - *JavaScript* 
+  - *HTML / HTML5* 
+  - *CSS / CSS3* 
+  - *C / C# / C++* 
+- **Tools & Technologies:** 
+  - *Git* 
+  - *GitHub / GitLab* 
+  - *JSON* 
+  - *Google Firebase* 
+  - *Chrome DevTools* 
+  - *WebStorm / PHPStorm* 
+  - *Linux* 
+  - *NodeJS / NPM* 
+  - *VUE-cli* 
+- **Frameworks & Libraries** 
+  - *Vue.js* 
+  - *Vuetify* 
+  - *LoDash* 
+  - *Bootstrap* 
+  - *JQuery*  
 ## Code Examples  
 ```javascript
 import Vue from 'vue'
