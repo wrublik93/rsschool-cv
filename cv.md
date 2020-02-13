@@ -43,6 +43,35 @@ Ready to work 24/7.
 * LoDash  
 * Bootstrap  
 * JQuery
+## Code Examples  
+```javascript
+import Vue from 'vue'
+import Vuex from 'vuex'
+import userModule from './store/user'
+import generalModule from './store/general'
+import readModule from './store/read'
+import userDataModule from './store/userData'
+import wordsBlockModule from './store/wordsBlock'
+import snackbarModule from './store/snackbar'
+import learnWordModule from './store/learnWord'
+import songsModule from './store/songs'
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+    modules: {
+        userModule,
+        generalModule,
+        readModule,
+        userDataModule,
+        wordsBlockModule,
+        snackbarModule,
+        learnWordModule,
+        songsModule
+    }
+})
+```  
+
 
 
 
