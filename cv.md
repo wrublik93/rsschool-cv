@@ -4,7 +4,7 @@ __*Telephone number (Telegram, Viber, WhatsApp):*__ +375292886631
 __*Email (gmail.com):*__ wrublik.93@gmail.com  
 __*Email (mail.ru):*__ wrublik.93@mail.ru  
 [Skype](https://join.skype.com/invite/aAg7AECSjAPq)  
-[LinkedIn](www.linkedin.com/in/wrublik93)  
+[LinkedIn](https://www.linkedin.com/in/wrublik93)  
 [GitHub](https://github.com/wrublik93)  
 ## Summary
 I am Front-end Developer from Minsk, Belarus. I like to improve 
@@ -88,9 +88,15 @@ Method for getting the book add date:
 - Web-application Development with JavaScript: 
   - Educational Centre "IT-Academy" (Minsk, Belarus); 
   - 03/2019 - 06/2019. 
-- Cisco CCNA Full Course): 
+- Cisco CCNA (Full Course): 
   - BSAT (Minsk, Belarus); 
   - 01/2016 - 12/2018.  
   
-
-
+## English  
+- English (Pre-Intermediate): 
+  - Language Training Centre BSUIR (Minsk, Belarus); 
+  - 09/2013 - 05/2014.
+- English (Intermediate): 
+  - Language School "Streamline" (Minsk, Belarus);
+  - 11/2019 - Ongoing.  
+  
