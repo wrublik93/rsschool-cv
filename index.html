@@ -51,11 +51,68 @@
             </section>
             <section>
                 <h2>Skills</h2>
-                <p></p>
+                <h3>Languages</h3>
+                <div>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML / HTML5</li>
+                        <li>CSS / CSS3</li>
+                        <li>C / C# / C++</li>
+                    </ul>
+                </div>
+                <h3>Tools & Technologies</h3>
+                <div>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub / GitLab</li>
+                        <li>JSON</li>
+                        <li>Google Firebase</li>
+                        <li>Chrome DevTools</li>
+                        <li>WebStorm / PHPStorm</li>
+                        <li>Linux</li>
+                        <li>NodeJS / NPM</li>
+                        <li>VUE-cli</li>
+                    </ul>
+                </div>
+                <h3>Frameworks & Libraries</h3>
+                <div>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>Vuetify</li>
+                        <li>LoDash</li>
+                        <li>Bootstrap</li>
+                        <li>JQuery</li>
+                    </ul>
+                </div>
             </section>
             <section>
                 <h2>Code Examples</h2>
-                <p></p>
+                <p>Method for ability loading book:</p>
+                <pre><code>canLoadBook(bookId){
+    let book = this.getUserData(bookId);
+    return this.isUserAuthenticated && !this.getProcessing && !book;
+}
+                    </code>
+                </pre>
+                <p>Method for check adding book:</p>
+                <pre><code>getUserDataBook(bookId){
+    return this.userData.books[bookId];
+    }
+                    </code>
+                </pre>
+                <p>Method for getting the book add date:</p>
+                <pre><code>getBookAddedDate(bookId){
+    let book = this.getUserDataBook(bookId);
+    return book.addedDate;
+}
+                    </code>
+                </pre>
+
+
+
+
+
+
             </section>
             <section>
                 <h2>Experience</h2>
