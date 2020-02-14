@@ -94,3 +94,12 @@
 .code-examples-section code {
     font-size: 15px;
 }
+
+.experience-section {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.experience-section-item {
+    margin-left: 20px;
+}
