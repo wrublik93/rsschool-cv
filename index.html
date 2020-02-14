@@ -9,28 +9,37 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div>
-                <h1>Ivan Vrubleusky</h1>
+        <header class="header">
+            <div class="contacts-avatar">
+                <div class="contacts-info">
+                    <h1>Ivan Vrubleuski</h1>
+                    <h2 class="italic">Front-end Developer</h2>
+                    <p><span class="italic">Telephone number:</span> +375292886631</p>
+                    <p><span class="italic">Email (gmail.com):</span> wrublik.93@gmail.com</p>
+                    <p><span class="italic">Email (mail.ru):</span> wrublik.93@mail.ru</p>
+                    <p><a class="italic" href="https://join.skype.com/invite/aAg7AECSjAPq">Skype</a></p>
+                    <p><a class="italic" href="https://www.linkedin.com/in/wrublik93/">LinkedIn</a></p>
+                    <p><a class="italic" href="https://github.com/wrublik93">GitHub</a></p>
+                </div>
                 <div>
-                    <img src="my_photo.png" width="175" alt="Ivan Vrubleusky">
+                    <img class="avatar" src="my_photo.png" width="190" height="190" alt="Ivan Vrubleusky">
                 </div>
             </div>
             <nav>
-                <ul>
-                    <li><a>Contacts</a></li>
-                    <li><a>Summary</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Code Examples</a></li>
-                    <li><a>Experience</a></li>
-                    <li><a>Education</a></li>
-                    <li><a>English</a></li>
+                <ul class="navigation">
+<!--                    <li><a href="#contacts">Contacts</a></li>-->
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-examples">Code Examples</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section>
-                <h2>Contact Info</h2>
+                <h2 id="contacts">Contact Info</h2>
                 <div>Telephone number (Telegram, Viber, WhatsApp): +375292886631</div>
                 <div>Email (gmail.com): wrublik.93@gmail.com</div>
                 <div>Email (mail.ru): wrublik.93@mail.ru</div>
@@ -39,7 +48,7 @@
                 <div>GitHub</div>
             </section>
             <section>
-                <h2>Summary</h2>
+                <h2 id="summary">Summary</h2>
                 <p>I am Front-end Developer from Minsk, Belarus. I like to improve in Web programming: HTML,
                     CSS, JavaScript, frameworks and other technologies. I have experience with the Vue.js.</p>
                 <p>I finished courses in the Educational Centre "IT-Academy" (HTML, CSS, JavaScript).
@@ -50,7 +59,7 @@
                 <p>I want to improve, learn new technologies and bring benefits. Ready to work 24/7.</p>
             </section>
             <section>
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <h3>Languages</h3>
                 <div>
                     <ul>
@@ -86,7 +95,7 @@
                 </div>
             </section>
             <section>
-                <h2>Code Examples</h2>
+                <h2 id="code-examples">Code Examples</h2>
                 <p>Method for ability loading book:</p>
                 <pre><code>canLoadBook(bookId){
     let book = this.getUserData(bookId);
@@ -109,7 +118,7 @@
                 </pre>
             </section>
             <section>
-                <h2>Experience</h2>
+                <h2 id="experience">Experience</h2>
                 <div>
                     <ul>
                         <li>Telecommunications Engineer:
@@ -128,7 +137,7 @@
                 </div>
             </section>
             <section>
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                 <div>
                     <ul>
                         <li>BE, Telecommunication Engineering:
@@ -167,7 +176,7 @@
                 </div>
             </section>
             <section>
-                <h2>English</h2>
+                <h2 id="english">English</h2>
                 <div>
                     <ul>
                         <li>English (Pre-Intermediate):
