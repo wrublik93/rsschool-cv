@@ -84,28 +84,22 @@
                     </ul>
                 </div>
             </section>
-            <section>
-                <h2 id="code-examples">Code Examples</h2>
-                <p>Method for ability loading book:</p>
-                <pre><code>canLoadBook(bookId){
+            <section class="code-examples-section">
+                <h2 id="code-examples" class="margin-bottom">Code Examples</h2>
+                <p class="margin-bottom">Method for ability loading book:</p>
+                <pre class="margin-bottom italic"><code>canLoadBook(bookId){
     let book = this.getUserData(bookId);
     return this.isUserAuthenticated && !this.getProcessing && !book;
-}
-                    </code>
-                </pre>
-                <p>Method for check adding book:</p>
-                <pre><code>getUserDataBook(bookId){
+}</code></pre>
+                <p class="margin-bottom">Method for check adding book:</p>
+                <pre class="margin-bottom italic"><code>getUserDataBook(bookId){
     return this.userData.books[bookId];
-}
-                    </code>
-                </pre>
-                <p>Method for getting the book add date:</p>
+}</code></pre>
+                <p class="margin-bottom">Method for getting the book add date:</p>
                 <pre><code>getBookAddedDate(bookId){
     let book = this.getUserDataBook(bookId);
     return book.addedDate;
-}
-                    </code>
-                </pre>
+}</code></pre>
             </section>
             <section>
                 <h2 id="experience">Experience</h2>

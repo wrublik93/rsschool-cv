@@ -85,3 +85,12 @@
     padding: 10px 10px;
     font-size: 18px;
 }
+
+.code-examples-section {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.code-examples-section code {
+    font-size: 15px;
+}
