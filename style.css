@@ -11,6 +11,10 @@
     margin-bottom: 10px;
 }
 
+.margin-left {
+    margin-left: 30px;
+}
+
 .container {
     max-width: 1024px;
     margin: 20px auto;
@@ -75,4 +79,9 @@
     padding: 10px 10px;
     font-size: 18px;
     text-align: justify;
+}
+
+.skills-section {
+    padding: 10px 10px;
+    font-size: 18px;
 }
