@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information about me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="contacts-avatar">
+                <div class="contacts-info">
+                    <h1>Ivan Vrubleuski</h1>
+                    <h2 class="italic">Front-end Developer</h2>
+                    <p><span class="italic">Telephone number:</span> +375292886631</p>
+                    <p><span class="italic">Email (gmail.com):</span> wrublik.93@gmail.com</p>
+                    <p><span class="italic">Email (mail.ru):</span> wrublik.93@mail.ru</p>
+                    <p><a class="italic" href="https://join.skype.com/invite/aAg7AECSjAPq">Skype</a></p>
+                    <p><a class="italic" href="https://www.linkedin.com/in/wrublik93/">LinkedIn</a></p>
+                    <p><a class="italic" href="https://github.com/wrublik93">GitHub</a></p>
+                </div>
+                <div>
+                    <img class="avatar" src="my_photo.png" width="190" height="190" alt="Ivan Vrubleusky">
+                </div>
+            </div>
+            <hr class="hr-padding">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-examples">Code Examples</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <section class="summary-section">
+                <h2 id="summary" class="margin-bottom">Summary</h2>
+                <p class="margin-bottom">I am Front-end Developer from Minsk, Belarus. I like to improve in Web programming: HTML,
+                    CSS, JavaScript, frameworks and other technologies. I have experience with the Vue.js.</p>
+                <p class="margin-bottom">I finished courses in the Educational Centre "IT-Academy" (HTML, CSS, JavaScript).
+                    I graduated from the Belarusian State University of Informatics and Radioelectronics
+                    (specialty: "Information Systems Software"). I work at RUE "Beltelecom" (web application
+                    development for internal use). Pre-Intermediate English (have a certificate), studying
+                    Intermediate English (Language School "Streamline").</p>
+                <p>I want to improve, learn new technologies and bring benefits. Ready to work 24/7.</p>
+            </section>
+            <hr>
+            <section class="skills-section">
+                <h2 id="skills" class="margin-bottom">Skills</h2>
+                <h3 class="margin-bottom italic">Languages</h3>
+                <div>
+                    <ul class="margin-bottom margin-left">
+                        <li>JavaScript</li>
+                        <li>HTML / HTML5</li>
+                        <li>CSS / CSS3</li>
+                        <li>C / C# / C++</li>
+                    </ul>
+                </div>
+                <h3 class="margin-bottom italic">Tools & Technologies</h3>
+                <div>
+                    <ul class="margin-bottom margin-left">
+                        <li>Git</li>
+                        <li>GitHub / GitLab</li>
+                        <li>JSON</li>
+                        <li>Google Firebase</li>
+                        <li>Chrome DevTools</li>
+                        <li>WebStorm / PHPStorm</li>
+                        <li>Linux</li>
+                        <li>NodeJS / NPM</li>
+                        <li>VUE-cli</li>
+                    </ul>
+                </div>
+                <h3 class="margin-bottom italic">Frameworks & Libraries</h3>
+                <div>
+                    <ul class="margin-left">
+                        <li>Vue.js</li>
+                        <li>Vuetify</li>
+                        <li>LoDash</li>
+                        <li>Bootstrap</li>
+                        <li>JQuery</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="code-examples-section">
+                <h2 id="code-examples" class="margin-bottom">Code Examples</h2>
+                <p class="margin-bottom">Method for ability loading book:</p>
+                <pre class="margin-bottom italic"><code>canLoadBook(bookId){
+    let book = this.getUserData(bookId);
+    return this.isUserAuthenticated && !this.getProcessing && !book;
+}</code></pre>
+                <p class="margin-bottom">Method for check adding book:</p>
+                <pre class="margin-bottom italic"><code>getUserDataBook(bookId){
+    return this.userData.books[bookId];
+}</code></pre>
+                <p class="margin-bottom">Method for getting the book add date:</p>
+                <pre><code>getBookAddedDate(bookId){
+    let book = this.getUserDataBook(bookId);
+    return book.addedDate;
+}</code></pre>
+            </section>
+            <hr>
+            <section class="experience-section">
+                <h2 id="experience" class="margin-bottom">Experience</h2>
+                <div>
+                    <ul class="experience-section-item">
+                        <li class="margin-bottom">Telecommunications Engineer:
+                            <ul class="margin-left">
+                                <li>RUE "Beltelecom" (Minsk, Belarus);</li>
+                                <li>06/2015 - 02/2019.</li>
+                            </ul>
+                        </li>
+                        <li>Software Engineer (Front-end Developer):
+                            <ul class="margin-left">
+                                <li>RUE "Beltelecom" (Minsk, Belarus);</li>
+                                <li>02/2019 - Ongoing.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="education-section">
+                <h2 id="education" class="margin-bottom">Education</h2>
+                <div>
+                    <ul>
+                        <li class="education-section-item margin-bottom">BE, Telecommunication Engineering:
+                            <ul class="margin-left">
+                                <li>BSUIR (Minsk, Belarus);</li>
+                                <li>09/2010 - 06/2015;</li>
+                                <li>Telecommunications Engineer.</li>
+                            </ul>
+                        </li>
+                        <li class="education-section-item margin-bottom">BE, Information Systems Software:
+                            <ul class="margin-left">
+                                <li>BSUIR (Minsk, Belarus);</li>
+                                <li>04/2018 - 10/2019;</li>
+                                <li>Software Engineer.</li>
+                            </ul>
+                        </li>
+                        <li class="education-section-item margin-bottom">Website Development with HTML, CSS and JavaScript:
+                            <ul class="margin-left">
+                                <li>Educational Centre "IT-Academy" (Minsk, Belarus);</li>
+                                <li>12/2018 - 03/2019.</li>
+                            </ul>
+                        </li>
+                        <li class="education-section-item margin-bottom">Web-application Development with JavaScript:
+                            <ul class="margin-left">
+                                <li>Educational Centre "IT-Academy" (Minsk, Belarus);</li>
+                                <li>03/2019 - 06/2019.</li>
+                            </ul>
+                        </li>
+                        <li class="education-section-item">Cisco CCNA (Full Course):
+                            <ul class="margin-left">
+                                <li>BSAT (Minsk, Belarus);</li>
+                                <li>01/2016 - 12/2018.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="english-section">
+                <h2 id="english" class="margin-bottom">English</h2>
+                <div>
+                    <ul>
+                        <li class="english-section-item margin-bottom">English (Pre-Intermediate):
+                            <ul class="margin-left">
+                                <li>Language Training Centre BSUIR (Minsk, Belarus);</li>
+                                <li>09/2013 - 05/2014.</li>
+                            </ul>
+                        </li>
+                        <li class="english-section-item">English (Intermediate):
+                            <ul class="margin-left">
+                                <li>Language School "Streamline" (Minsk, Belarus);</li>
+                                <li>11/2019 - Ongoing.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer class="footer">
+            <div class="italic">
+                <a href="https://www.linkedin.com/in/wrublik93/">Ivan Vrubleuski</a>, 2020
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
