@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #FDFAF5;
+}
+
 .italic {
     font-style: italic;
 }
@@ -35,16 +39,19 @@
     justify-content: space-between;
 }
 
-.contacts-info a {
+.avatar {
+    border-radius: 100px;
+}
+
+.contacts-info a,
+.navigation a,
+.footer a {
     text-decoration: none;
 }
 
-.contacts-info p {
+.contacts-info p,
+.code-examples-section code {
     font-size: 15px;
-}
-
-.avatar {
-    border-radius: 100px;
 }
 
 .navigation {
@@ -71,8 +78,8 @@
     }
 }
 
-.navigation a {
-    text-decoration: none;
+.hr-padding {
+    margin-top: 15px;
 }
 
 .summary-section {
@@ -81,43 +88,17 @@
     text-align: justify;
 }
 
-.skills-section {
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-.code-examples-section {
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-.code-examples-section code {
-    font-size: 15px;
-}
-
-.experience-section {
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-.experience-section-item {
-    margin-left: 20px;
-}
-
-.education-section {
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-.education-section-item {
-    margin-left: 20px;
-}
-
+.skills-section,
+.code-examples-section,
+.experience-section,
+.education-section,
 .english-section {
     padding: 10px 10px;
     font-size: 18px;
 }
 
+.experience-section-item,
+.education-section-item,
 .english-section-item {
     margin-left: 20px;
 }
@@ -126,8 +107,4 @@
     padding-top: 30px;
     font-size: 16px;
     text-align: center;
-}
-
-.footer a {
-    text-decoration: none;
 }
