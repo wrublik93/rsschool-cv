@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FDFAF5;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.margin-left {
+    margin-left: 30px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.header {
+    padding: 10px 10px;
+}
+
+.contacts-avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatar {
+    border-radius: 100px;
+}
+
+.contacts-info a,
+.navigation a,
+.footer a {
+    text-decoration: none;
+}
+
+.contacts-info p,
+.code-examples-section code {
+    font-size: 15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 660px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .navigation li {
+        padding: 10px;
+        align-self: center;
+    }
+}
+
+.hr-padding {
+    margin-top: 15px;
+}
+
+.summary-section {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.skills-section,
+.code-examples-section,
+.experience-section,
+.education-section,
+.english-section {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.experience-section-item,
+.education-section-item,
+.english-section-item {
+    margin-left: 20px;
+}
+
+.footer {
+    padding-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
